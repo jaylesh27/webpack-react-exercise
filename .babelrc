@@ -1,0 +1,5 @@
+{
+	// "babel-preset-env" preset only takes care of ES6/ES2015 to ES5 transpilation as well as some syntax from ES2016 and ES2017...
+	// the react preset transpiles JSX code into javascript code.  The "babel-preset-react" npm package is installed to enable this (check the package.json file)
+	"presets": ["babel-preset-env", "react"]
+}
